@@ -1,6 +1,13 @@
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
+from pars.parser import Pars
+import json
 
+
+pars = Pars()
+pars.get_data()
+pars.get_result()
+# pars.img_load()
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///shop.db'
@@ -22,8 +29,10 @@ class Item(db.Model):
 
 @app.route('/')
 def index():
-    items = Item.query.order_by(Item.price).all()
-    return render_template('index.html', data=items)
+    with open('result.json', encoding='utf-8') as f:
+        templates = json.load(f)
+    # items = Item.query.order_by(Item.price).all()
+    return render_template('index.html', templates=templates)
 
 @app.route('/about')
 def about():
@@ -45,6 +54,9 @@ def create():
             return 'error'
     else:
         return render_template('create.html')
+    
+
+
 
 if __name__ == "__main__":
     with app.app_context():

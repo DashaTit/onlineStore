@@ -12,27 +12,27 @@
 </div>
 
 <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        {% for el in data%}
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">{{ el.title }}</h4>
+    <div class="text-center">
+        {% for el in templates%}
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src='https://img.mvideo.ru/{{el['image']}}' class="img-fluid rounded-start" alt="">
                     </div>
+                    <div class="col-md-8">
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">{{ el.price }}<small class="text-body-secondary fw-light"> рублей</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>10 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <a href="/" class="w-100 btn btn-lg btn-outline-primary">Купить</a>
+                        <h5 class="card-title">{{ el['name'] }}</h5>
+                        <!-- <p class="card-text">Это более широкая карта с вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p> -->
+                        <p class="card-text"><small class="text-muted">{{ el['item_basePrice'] }}</small></p>
+                    </div>
                     </div>
                 </div>
-            </div>
+                </div>
+            
         {% endfor %}
-        </div>
-        </div>
+        
+    </div>
+    
+</div>
 
 {% endblock %}
