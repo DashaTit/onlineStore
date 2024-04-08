@@ -286,100 +286,6 @@
         "item_basePrice": 129999
     },
     {
-        "productId": "400277789",
-        "name": "Ноутбук HONOR MagicBook X16 Pro i5 13420H 16/512GB Space Gray (BRN-G56 5301AHQR)",
-        "nameTranslit": "noutbuk-honor-magicbook-x16-pro-i5-13420h-16-512gb-space-gray-brn-g56-5301ahqr",
-        "productType": "DIG",
-        "usedProductType": null,
-        "materialCisNumber": "400277789",
-        "materialSource": "ERP",
-        "modelName": "BRN-G56 5301AHQR",
-        "rating": {
-            "star": 5,
-            "count": 15,
-            "percent": 101
-        },
-        "supplier": null,
-        "vendorCatalog": null,
-        "sublicense": false,
-        "partnerType": null,
-        "saleLegal": true,
-        "preorder": null,
-        "isMprimeSubscription": false,
-        "isPreorder": false,
-        "image": "Pdb/small_pic/480/400277789b.jpg",
-        "brandId": "1077",
-        "brandName": "HONOR",
-        "status": {
-            "showCase": false,
-            "availableOnlyInRetailStore": false,
-            "soldOut": false,
-            "isCannotBeExchanged": false
-        },
-        "category": {
-            "id": "987",
-            "name": "Ноутбуки"
-        },
-        "properties": null,
-        "images": [
-            "Pdb/400277789.jpg",
-            "Pdb/400277789b.jpg",
-            "Pdb/400277789b1.jpg",
-            "Pdb/400277789b2.jpg",
-            "Pdb/400277789b3.jpg",
-            "Pdb/400277789b4.jpg",
-            "Pdb/400277789s.jpg"
-        ],
-        "propertiesPortion": [
-            {
-                "id": 5552,
-                "name": "Гарантия",
-                "value": "1 год",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 1,
-                "measure": null
-            },
-            {
-                "id": 621,
-                "name": "Диагональ/разрешение",
-                "value": "16\"/1920x1200 пикс.",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 2,
-                "measure": null
-            },
-            {
-                "id": 30852930,
-                "name": "Процессор",
-                "value": "Intel Core i5 13420H 2.1 ГГц",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 3,
-                "measure": null
-            },
-            {
-                "id": 30852805,
-                "name": "Оперативная память (RAM)",
-                "value": "16",
-                "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                "valueDescription": null,
-                "priority": 5,
-                "measure": "ГБ"
-            },
-            {
-                "id": 620,
-                "name": "Видеокарта",
-                "value": "Intel UHD Graphics",
-                "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
-                "valueDescription": null,
-                "priority": 6,
-                "measure": null
-            }
-        ],
-        "item_basePrice": 95999
-    },
-    {
         "productId": "400239385",
         "name": "Ноутбук HUAWEI MateBook D16 2024 i5-12450H/16 ГБ/512 ГБ/Space Gray (53013WXF)",
         "nameTranslit": "noutbuk-huawei-matebook-d16-2024-i5-12450h-16gb-512gb-space-gray-53013wxf",
@@ -1846,6 +1752,101 @@
         "item_basePrice": 94999
     },
     {
+        "productId": "30070349",
+        "name": "Ноутбук HUAWEI MateBook D 16 2024 i5/16/512/DOS Space Gray 53013YDK",
+        "nameTranslit": "noutbuk-huawei-matebook-d-16-2024-i5-16-512-dos-space-gray-53013ydk",
+        "productType": "DIG",
+        "usedProductType": null,
+        "materialCisNumber": "30070349",
+        "materialSource": "ERP",
+        "modelName": "MateBook D 16 i5/512/DOS Space Gray 53013YDK",
+        "rating": {
+            "star": 4.835820895522388,
+            "count": 67,
+            "percent": 91
+        },
+        "supplier": null,
+        "vendorCatalog": null,
+        "sublicense": false,
+        "partnerType": null,
+        "saleLegal": true,
+        "preorder": null,
+        "isMprimeSubscription": false,
+        "isPreorder": false,
+        "image": "Pdb/small_pic/480/30070349b.jpg",
+        "brandId": "1801",
+        "brandName": "HUAWEI",
+        "status": {
+            "showCase": false,
+            "availableOnlyInRetailStore": false,
+            "soldOut": false,
+            "isCannotBeExchanged": false
+        },
+        "category": {
+            "id": "987",
+            "name": "Ноутбуки"
+        },
+        "properties": null,
+        "images": [
+            "Pdb/30070349.jpg",
+            "Pdb/30070349b.jpg",
+            "Pdb/30070349b1.jpg",
+            "Pdb/30070349b2.jpg",
+            "Pdb/30070349b3.jpg",
+            "Pdb/30070349b4.jpg",
+            "Pdb/30070349b5.jpg",
+            "Pdb/30070349s.jpg"
+        ],
+        "propertiesPortion": [
+            {
+                "id": 5552,
+                "name": "Гарантия",
+                "value": "1 год",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 1,
+                "measure": null
+            },
+            {
+                "id": 621,
+                "name": "Диагональ/разрешение",
+                "value": "16\"/1920x1200 пикс.",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 2,
+                "measure": null
+            },
+            {
+                "id": 30852930,
+                "name": "Процессор",
+                "value": "Intel Core i5 12450H 2.0 ГГц",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 3,
+                "measure": null
+            },
+            {
+                "id": 30852805,
+                "name": "Оперативная память (RAM)",
+                "value": "16",
+                "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                "valueDescription": null,
+                "priority": 5,
+                "measure": "ГБ"
+            },
+            {
+                "id": 620,
+                "name": "Видеокарта",
+                "value": "Intel UHD Graphics",
+                "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                "valueDescription": null,
+                "priority": 6,
+                "measure": null
+            }
+        ],
+        "item_basePrice": 69999
+    },
+    {
         "productId": "30066685",
         "name": "Ноутбук HUAWEI MateBook 14 i5-1240P/16 ГБ/512 ГБ/Space Gray (53013PET)",
         "nameTranslit": "noutbuk-huawei-matebook-14-i5-1240p-16-gb-512-gb-space-gray-53013pet",
@@ -1940,101 +1941,6 @@
             }
         ],
         "item_basePrice": 88999
-    },
-    {
-        "productId": "30070349",
-        "name": "Ноутбук HUAWEI MateBook D 16 2024 i5/16/512/DOS Space Gray 53013YDK",
-        "nameTranslit": "noutbuk-huawei-matebook-d-16-2024-i5-16-512-dos-space-gray-53013ydk",
-        "productType": "DIG",
-        "usedProductType": null,
-        "materialCisNumber": "30070349",
-        "materialSource": "ERP",
-        "modelName": "MateBook D 16 i5/512/DOS Space Gray 53013YDK",
-        "rating": {
-            "star": 4.835820895522388,
-            "count": 67,
-            "percent": 91
-        },
-        "supplier": null,
-        "vendorCatalog": null,
-        "sublicense": false,
-        "partnerType": null,
-        "saleLegal": true,
-        "preorder": null,
-        "isMprimeSubscription": false,
-        "isPreorder": false,
-        "image": "Pdb/small_pic/480/30070349b.jpg",
-        "brandId": "1801",
-        "brandName": "HUAWEI",
-        "status": {
-            "showCase": false,
-            "availableOnlyInRetailStore": false,
-            "soldOut": false,
-            "isCannotBeExchanged": false
-        },
-        "category": {
-            "id": "987",
-            "name": "Ноутбуки"
-        },
-        "properties": null,
-        "images": [
-            "Pdb/30070349.jpg",
-            "Pdb/30070349b.jpg",
-            "Pdb/30070349b1.jpg",
-            "Pdb/30070349b2.jpg",
-            "Pdb/30070349b3.jpg",
-            "Pdb/30070349b4.jpg",
-            "Pdb/30070349b5.jpg",
-            "Pdb/30070349s.jpg"
-        ],
-        "propertiesPortion": [
-            {
-                "id": 5552,
-                "name": "Гарантия",
-                "value": "1 год",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 1,
-                "measure": null
-            },
-            {
-                "id": 621,
-                "name": "Диагональ/разрешение",
-                "value": "16\"/1920x1200 пикс.",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 2,
-                "measure": null
-            },
-            {
-                "id": 30852930,
-                "name": "Процессор",
-                "value": "Intel Core i5 12450H 2.0 ГГц",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 3,
-                "measure": null
-            },
-            {
-                "id": 30852805,
-                "name": "Оперативная память (RAM)",
-                "value": "16",
-                "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                "valueDescription": null,
-                "priority": 5,
-                "measure": "ГБ"
-            },
-            {
-                "id": 620,
-                "name": "Видеокарта",
-                "value": "Intel UHD Graphics",
-                "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
-                "valueDescription": null,
-                "priority": 6,
-                "measure": null
-            }
-        ],
-        "item_basePrice": 69999
     },
     {
         "productId": "30067545",
@@ -2230,6 +2136,104 @@
             }
         ],
         "item_basePrice": 89999
+    },
+    {
+        "productId": "30069923",
+        "name": "Ноутбук HUAWEI MateBook D 16 i5/8/512 Space Gray (53013WXE)",
+        "nameTranslit": "noutbuk-huawei-matebook-d-16-i5-8-512-space-gray-53013wxe",
+        "productType": "DIG",
+        "usedProductType": null,
+        "materialCisNumber": "30069923",
+        "materialSource": "ERP",
+        "modelName": "MateBook D 16 i5/8/512 Space Gray (53013WXE)",
+        "rating": {
+            "star": 5,
+            "count": 25,
+            "percent": 101
+        },
+        "supplier": null,
+        "vendorCatalog": null,
+        "sublicense": false,
+        "partnerType": null,
+        "saleLegal": true,
+        "preorder": null,
+        "isMprimeSubscription": false,
+        "isPreorder": false,
+        "image": "Pdb/small_pic/480/30069923b.jpg",
+        "brandId": "1801",
+        "brandName": "HUAWEI",
+        "status": {
+            "showCase": false,
+            "availableOnlyInRetailStore": false,
+            "soldOut": false,
+            "isCannotBeExchanged": false
+        },
+        "category": {
+            "id": "987",
+            "name": "Ноутбуки"
+        },
+        "properties": null,
+        "images": [
+            "Pdb/30069923.jpg",
+            "Pdb/30069923b.jpg",
+            "Pdb/30069923b1.jpg",
+            "Pdb/30069923b2.jpg",
+            "Pdb/30069923b3.jpg",
+            "Pdb/30069923b4.jpg",
+            "Pdb/30069923b5.jpg",
+            "Pdb/30069923b6.jpg",
+            "Pdb/30069923b7.jpg",
+            "Pdb/30069923b8.jpg",
+            "Pdb/30069923s.jpg"
+        ],
+        "propertiesPortion": [
+            {
+                "id": 5552,
+                "name": "Гарантия",
+                "value": "1 год",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 1,
+                "measure": null
+            },
+            {
+                "id": 621,
+                "name": "Диагональ/разрешение",
+                "value": "16\"/1920x1200 пикс.",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 2,
+                "measure": null
+            },
+            {
+                "id": 30852930,
+                "name": "Процессор",
+                "value": "Intel Core i5 12450H 2 ГГц",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 3,
+                "measure": null
+            },
+            {
+                "id": 30852805,
+                "name": "Оперативная память (RAM)",
+                "value": "8",
+                "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                "valueDescription": null,
+                "priority": 5,
+                "measure": "ГБ"
+            },
+            {
+                "id": 620,
+                "name": "Видеокарта",
+                "value": "Intel UHD Graphics",
+                "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                "valueDescription": null,
+                "priority": 6,
+                "measure": null
+            }
+        ],
+        "item_basePrice": 69999
     },
     {
         "productId": "400136875",
