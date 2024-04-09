@@ -1,10 +1,9 @@
-{% extends 'base.html' %}
-
-{% block title %}
-<title>Login</title>
-{% endblock %}
+{% extends "base.html" %}
 
 {% block body %}
+<div class="d-flex align-items-center py-4 bg-body-tertiary">
+        
+    <main class="form-signin w-100px m-auto">
     <h1>Авторизация</h1>
     <form action="" method="post">
         {{ form.hidden_tag() }}
@@ -30,4 +29,8 @@
         <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
         <div>{{ message }}</div>
     </form>
+
+    <p>Нет аккаунта? <a href="/register">Зарегистрироваться</a></p>
+</main>
+</div>
 {% endblock %}

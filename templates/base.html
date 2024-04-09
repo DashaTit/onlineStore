@@ -17,8 +17,15 @@
         </a>
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
             <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/">Главная</a>
-            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/create">Корзина</a>
-            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/login">Войти в аккаунт</a>
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/basket">Корзина</a>
+            {% if current_user.is_authenticated %}
+                    <a class="navbar-brand" href="/logout">{{ current_user.name }}</a>
+            {% else %}
+                <p>
+                    <a class="btn btn-primary " href="/register">Зарегистрироваться</a>
+                    <a class="btn btn-success" href="/login">Войти</a>
+                </p>
+            {% endif %}
         </nav>
         </div> 
         
