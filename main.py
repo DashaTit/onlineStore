@@ -1,61 +1,50 @@
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
-from pars.parser import Pars
+
 import json
 
+from data_collection import Data_collection
 
-pars = Pars()
-pars.get_data()
-pars.get_result()
-# pars.img_load()
+
+Data_collection() #data
+
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///shop.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-class Item(db.Model):
+class Item(db.Model): #бд
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(100), nullable=False)
-    price = db.Column(db.Integer, nullable=False)
-    isActive = db.Column(db.Boolean, default=True)
-    # discription = db.Column(db.Text, nullable=True)
+    email = db.Column(db.String(100), nullable=False)
+    password = db.Column(db.String(500), nullable=False)
 
-    def __repr__(self):
-        return self.title
-
-
-
+#routes
 @app.route('/')
 def index():
     with open('result.json', encoding='utf-8') as f:
         templates = json.load(f)
-    # items = Item.query.order_by(Item.price).all()
+    items = Item.query.order_by(Item.id).all()
     return render_template('index.html', templates=templates)
 
-@app.route('/about')
-def about():
-    return render_template('about.html')
+# @app.route('/login', methods=["POST", 'GET'])
+# def login():
+#     if request.method == 'POST':
+#         email = request.form['email']
+#         password = request.form['password']
 
-@app.route('/create', methods=["POST", 'GET'])
-def create():
-    if request.method == 'POST':
-        title = request.form['title']
-        price = request.form['price']
-
-        item = Item(title=title, price=price)
-
-        try:
-            db.session.add(item)
-            db.session.commit()
-            return redirect('/')
-        except:
-            return 'error'
-    else:
-        return render_template('create.html')
-    
-
+#         item = Item(email=email, password=password)
+#         try:
+#             db.session.add(item)
+#             db.session.commit()
+#             return redirect('/')
+#         except Exception as e:
+#             print(str(e))
+#     else:
+#         return render_template('login.html')
 
 
 if __name__ == "__main__":

@@ -286,6 +286,100 @@
         "item_basePrice": 129999
     },
     {
+        "productId": "400277789",
+        "name": "Ноутбук HONOR MagicBook X16 Pro i5 13420H 16/512GB Space Gray (BRN-G56 5301AHQR)",
+        "nameTranslit": "noutbuk-honor-magicbook-x16-pro-i5-13420h-16-512gb-space-gray-brn-g56-5301ahqr",
+        "productType": "DIG",
+        "usedProductType": null,
+        "materialCisNumber": "400277789",
+        "materialSource": "ERP",
+        "modelName": "BRN-G56 5301AHQR",
+        "rating": {
+            "star": 5,
+            "count": 15,
+            "percent": 101
+        },
+        "supplier": null,
+        "vendorCatalog": null,
+        "sublicense": false,
+        "partnerType": null,
+        "saleLegal": true,
+        "preorder": null,
+        "isMprimeSubscription": false,
+        "isPreorder": false,
+        "image": "Pdb/small_pic/480/400277789b.jpg",
+        "brandId": "1077",
+        "brandName": "HONOR",
+        "status": {
+            "showCase": false,
+            "availableOnlyInRetailStore": false,
+            "soldOut": false,
+            "isCannotBeExchanged": false
+        },
+        "category": {
+            "id": "987",
+            "name": "Ноутбуки"
+        },
+        "properties": null,
+        "images": [
+            "Pdb/400277789.jpg",
+            "Pdb/400277789b.jpg",
+            "Pdb/400277789b1.jpg",
+            "Pdb/400277789b2.jpg",
+            "Pdb/400277789b3.jpg",
+            "Pdb/400277789b4.jpg",
+            "Pdb/400277789s.jpg"
+        ],
+        "propertiesPortion": [
+            {
+                "id": 5552,
+                "name": "Гарантия",
+                "value": "1 год",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 1,
+                "measure": null
+            },
+            {
+                "id": 621,
+                "name": "Диагональ/разрешение",
+                "value": "16\"/1920x1200 пикс.",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 2,
+                "measure": null
+            },
+            {
+                "id": 30852930,
+                "name": "Процессор",
+                "value": "Intel Core i5 13420H 2.1 ГГц",
+                "nameDescription": null,
+                "valueDescription": null,
+                "priority": 3,
+                "measure": null
+            },
+            {
+                "id": 30852805,
+                "name": "Оперативная память (RAM)",
+                "value": "16",
+                "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                "valueDescription": null,
+                "priority": 5,
+                "measure": "ГБ"
+            },
+            {
+                "id": 620,
+                "name": "Видеокарта",
+                "value": "Intel UHD Graphics",
+                "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                "valueDescription": null,
+                "priority": 6,
+                "measure": null
+            }
+        ],
+        "item_basePrice": 95999
+    },
+    {
         "productId": "400239385",
         "name": "Ноутбук HUAWEI MateBook D16 2024 i5-12450H/16 ГБ/512 ГБ/Space Gray (53013WXF)",
         "nameTranslit": "noutbuk-huawei-matebook-d16-2024-i5-12450h-16gb-512gb-space-gray-53013wxf",
@@ -512,7 +606,7 @@
         "brandId": "10280",
         "brandName": "Thunderobot",
         "status": {
-            "showCase": true,
+            "showCase": false,
             "availableOnlyInRetailStore": false,
             "soldOut": false,
             "isCannotBeExchanged": false
@@ -2234,105 +2328,5 @@
             }
         ],
         "item_basePrice": 69999
-    },
-    {
-        "productId": "400136875",
-        "name": "Ноутбук HONOR Magicbook X16 i5-12450H/16 ГБ/512 ГБ/Space Gray (5301AFHH)",
-        "nameTranslit": "noutbuk-honor-magicbook-x16-i5-12450h-16-gb-512-gb-space-gray-5301afhh",
-        "productType": "DIG",
-        "usedProductType": null,
-        "materialCisNumber": "400136875",
-        "materialSource": "ERP",
-        "modelName": "MagicBook X 16 16/512 Sp. Gray (BRN-F56)",
-        "rating": {
-            "star": 4.862619808306709,
-            "count": 313,
-            "percent": 91
-        },
-        "supplier": null,
-        "vendorCatalog": null,
-        "sublicense": false,
-        "partnerType": null,
-        "saleLegal": true,
-        "preorder": null,
-        "isMprimeSubscription": false,
-        "isPreorder": false,
-        "image": "Pdb/small_pic/480/400136875b.jpg",
-        "brandId": "1077",
-        "brandName": "HONOR",
-        "status": {
-            "showCase": false,
-            "availableOnlyInRetailStore": false,
-            "soldOut": false,
-            "isCannotBeExchanged": false
-        },
-        "category": {
-            "id": "987",
-            "name": "Ноутбуки"
-        },
-        "properties": null,
-        "images": [
-            "Pdb/400136875.jpg",
-            "Pdb/400136875b.jpg",
-            "Pdb/400136875b1.jpg",
-            "Pdb/400136875b2.jpg",
-            "Pdb/400136875b21.jpg",
-            "Pdb/400136875b22.jpg",
-            "Pdb/400136875b23.jpg",
-            "Pdb/400136875b24.jpg",
-            "Pdb/400136875b25.jpg",
-            "Pdb/400136875b3.jpg",
-            "Pdb/400136875b4.jpg",
-            "Pdb/400136875b5.jpg",
-            "Pdb/400136875s.jpg"
-        ],
-        "propertiesPortion": [
-            {
-                "id": 5552,
-                "name": "Гарантия",
-                "value": "1 год",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 1,
-                "measure": null
-            },
-            {
-                "id": 621,
-                "name": "Диагональ/разрешение",
-                "value": "16\"/1920x1200 пикс.",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 2,
-                "measure": null
-            },
-            {
-                "id": 30852930,
-                "name": "Процессор",
-                "value": "Intel Core i5 12450H 2 ГГц",
-                "nameDescription": null,
-                "valueDescription": null,
-                "priority": 3,
-                "measure": null
-            },
-            {
-                "id": 30852805,
-                "name": "Оперативная память (RAM)",
-                "value": "16",
-                "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                "valueDescription": null,
-                "priority": 5,
-                "measure": "ГБ"
-            },
-            {
-                "id": 620,
-                "name": "Видеокарта",
-                "value": "Intel UHD Graphics",
-                "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
-                "valueDescription": null,
-                "priority": 6,
-                "measure": null
-            }
-        ],
-        "item_basePrice": 83999
     }
 ]

@@ -15,7 +15,7 @@ class Pars():
         
         response = requests.get('https://www.mvideo.ru/bff/products/listing', params=self.params, cookies=self.cookies, headers=self.headers).json()
         products_id = response['body']['products']
-        with open('id_products.json', 'w') as file:
+        with open('pars/id_products.json', 'w') as file:
             json.dump(products_id, file, indent=4, ensure_ascii=False)
         json_data = {
             'productIds': products_id,
@@ -36,7 +36,7 @@ class Pars():
 
         response = requests.post('https://www.mvideo.ru/bff/product-details/list', cookies=self.cookies, headers=self.headers, json=json_data).json()
 
-        with open('2_items.json', 'w', encoding='utf-8') as file:
+        with open('pars/2_items.json', 'w', encoding='utf-8') as file:
             json.dump(response, file, indent=4, ensure_ascii=False)
 
         products_id_str = ','.join(products_id)
@@ -49,7 +49,7 @@ class Pars():
 
         response = requests.get('https://www.mvideo.ru/bff/products/prices', params=params, cookies=self.cookies, headers=self.headers).json()
 
-        with open('prices.json', 'w', encoding='utf-8') as file:
+        with open('pars/prices.json', 'w', encoding='utf-8') as file:
             json.dump(response, file, indent=4, ensure_ascii=False)
 
         items_prices = {}
@@ -64,16 +64,16 @@ class Pars():
                 'item_basePrice': item_base_price,
             }
 
-        with open('final_prices.json', 'w', encoding='utf-8') as file:
+        with open('pars/final_prices.json', 'w', encoding='utf-8') as file:
             json.dump(items_prices, file, indent=4, ensure_ascii=False)
 
 
 
     def get_result(self):
-        with open('2_items.json', encoding='utf-8') as file:
+        with open('pars/2_items.json', encoding='utf-8') as file:
             products_data = json.load(file)
 
-        with open('final_prices.json', encoding='utf-8') as file:
+        with open('pars/final_prices.json', encoding='utf-8') as file:
             products_prices = json.load(file)
 
         products_data = products_data['body']['products']
@@ -88,13 +88,3 @@ class Pars():
 
         with open('result.json', 'w', encoding='utf-8') as file:
             json.dump(products_data, file, indent=4, ensure_ascii=False)
-
-    # def img_load(self):
-    #     with open('result.json', encoding='utf-8') as f:
-    #         templates = json.load(f)
-    #     for el in templates:
-    #         img = f'https://img.mvideo.ru/{el["image"]}'
-    #         p = requests.get(img)
-    #         out = open(f'img/{el["productId"]}.jpg', "wb")
-    #         out.write(p.content)
-    #         out.close()
