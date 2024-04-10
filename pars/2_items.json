@@ -13,8 +13,8 @@
                 "materialSource": "ERP",
                 "modelName": "911 Plus X (JT009WE07RU)",
                 "rating": {
-                    "star": 4.755905511811024,
-                    "count": 254,
+                    "star": 4.752941176470588,
+                    "count": 255,
                     "percent": 91
                 },
                 "supplier": null,
@@ -29,7 +29,7 @@
                 "brandId": "10280",
                 "brandName": "Thunderobot",
                 "status": {
-                    "showCase": false,
+                    "showCase": true,
                     "availableOnlyInRetailStore": false,
                     "soldOut": false,
                     "isCannotBeExchanged": false
@@ -672,99 +672,6 @@
                 ]
             },
             {
-                "productId": "400254718",
-                "name": "Ноутбук игровой Thunderobot 911S Core XD JT009400ERU",
-                "nameTranslit": "noutbuk-igrovoi-thunderobot-911s-core-xd-jt009400eru",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "400254718",
-                "materialSource": "ERP",
-                "modelName": "911S Core XD JT009400ERU",
-                "rating": {
-                    "star": 4.387096774193548,
-                    "count": 31,
-                    "percent": 81
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "saleLegal": true,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "isPreorder": false,
-                "image": "Pdb/small_pic/480/400254718b.jpg",
-                "brandId": "10280",
-                "brandName": "Thunderobot",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "3607",
-                    "name": "Игровые ноутбуки"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/400254718.jpg",
-                    "Pdb/400254718b.jpg",
-                    "Pdb/400254718b1.jpg",
-                    "Pdb/400254718b2.jpg",
-                    "Pdb/400254718b3.jpg",
-                    "Pdb/400254718b4.jpg",
-                    "Pdb/400254718s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 5552,
-                        "name": "Гарантия",
-                        "value": "1 год",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 621,
-                        "name": "Диагональ/разрешение",
-                        "value": "15.6\"/1920x1080 пикс.",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852930,
-                        "name": "Процессор",
-                        "value": "Intel Core i5 12450H 2 ГГц",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852805,
-                        "name": "Оперативная память (RAM)",
-                        "value": "16",
-                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                        "valueDescription": null,
-                        "priority": 5,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 620,
-                        "name": "Видеокарта",
-                        "value": "GeForce RTX 4050 6GB",
-                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": null
-                    }
-                ]
-            },
-            {
                 "productId": "30064273",
                 "name": "Ноутбук Apple MacBook Air 13 M1/8/256 Space Gray (MGN63)",
                 "nameTranslit": "noutbuk-apple-macbook-air-13-m1-8-256-space-gray-mgn63",
@@ -860,18 +767,18 @@
                 ]
             },
             {
-                "productId": "30070347",
-                "name": "Ноутбук HUAWEI MateBook D 16 2024 i3/8/512 Space Gray (53013WXD)",
-                "nameTranslit": "noutbuk-huawei-matebook-d-16-2024-i3-8-512-space-gray-53013wxd",
+                "productId": "400254718",
+                "name": "Ноутбук игровой Thunderobot 911S Core XD JT009400ERU",
+                "nameTranslit": "noutbuk-igrovoi-thunderobot-911s-core-xd-jt009400eru",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "30070347",
+                "materialCisNumber": "400254718",
                 "materialSource": "ERP",
-                "modelName": "MateBook D 16 i3/8/512 Space Gray 53013WXD",
+                "modelName": "911S Core XD JT009400ERU",
                 "rating": {
-                    "star": 5,
-                    "count": 56,
-                    "percent": 101
+                    "star": 4.40625,
+                    "count": 32,
+                    "percent": 81
                 },
                 "supplier": null,
                 "vendorCatalog": null,
@@ -881,9 +788,9 @@
                 "preorder": null,
                 "isMprimeSubscription": false,
                 "isPreorder": false,
-                "image": "Pdb/small_pic/480/30070347b.jpg",
-                "brandId": "1801",
-                "brandName": "HUAWEI",
+                "image": "Pdb/small_pic/480/400254718b.jpg",
+                "brandId": "10280",
+                "brandName": "Thunderobot",
                 "status": {
                     "showCase": false,
                     "availableOnlyInRetailStore": false,
@@ -891,19 +798,18 @@
                     "isCannotBeExchanged": false
                 },
                 "category": {
-                    "id": "987",
-                    "name": "Ноутбуки"
+                    "id": "3607",
+                    "name": "Игровые ноутбуки"
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/30070347.jpg",
-                    "Pdb/30070347b.jpg",
-                    "Pdb/30070347b1.jpg",
-                    "Pdb/30070347b2.jpg",
-                    "Pdb/30070347b3.jpg",
-                    "Pdb/30070347b4.jpg",
-                    "Pdb/30070347b5.jpg",
-                    "Pdb/30070347s.jpg"
+                    "Pdb/400254718.jpg",
+                    "Pdb/400254718b.jpg",
+                    "Pdb/400254718b1.jpg",
+                    "Pdb/400254718b2.jpg",
+                    "Pdb/400254718b3.jpg",
+                    "Pdb/400254718b4.jpg",
+                    "Pdb/400254718s.jpg"
                 ],
                 "propertiesPortion": [
                     {
@@ -918,7 +824,7 @@
                     {
                         "id": 621,
                         "name": "Диагональ/разрешение",
-                        "value": "16\"/1920x1200 пикс.",
+                        "value": "15.6\"/1920x1080 пикс.",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 2,
@@ -927,7 +833,7 @@
                     {
                         "id": 30852930,
                         "name": "Процессор",
-                        "value": "Intel Core i3 1215U 1.2 ГГц",
+                        "value": "Intel Core i5 12450H 2 ГГц",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 3,
@@ -936,7 +842,7 @@
                     {
                         "id": 30852805,
                         "name": "Оперативная память (RAM)",
-                        "value": "8",
+                        "value": "16",
                         "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
                         "valueDescription": null,
                         "priority": 5,
@@ -945,7 +851,7 @@
                     {
                         "id": 620,
                         "name": "Видеокарта",
-                        "value": "Intel UHD Graphics",
+                        "value": "GeForce RTX 4050 6GB",
                         "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
                         "valueDescription": null,
                         "priority": 6,
@@ -1053,18 +959,18 @@
                 ]
             },
             {
-                "productId": "400260389",
-                "name": "Ноутбук HONOR MagicBook X16 2024 i5 12450H/16/512 Space Gray 5301AHGW",
-                "nameTranslit": "noutbuk-honor-magicbook-x16-2024-i5-12450h-16-512-space-gray-5301ahgw",
+                "productId": "30070347",
+                "name": "Ноутбук HUAWEI MateBook D 16 2024 i3/8/512 Space Gray (53013WXD)",
+                "nameTranslit": "noutbuk-huawei-matebook-d-16-2024-i3-8-512-space-gray-53013wxd",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "400260389",
+                "materialCisNumber": "30070347",
                 "materialSource": "ERP",
-                "modelName": "MagicBook X16 i5 12450H/16/512 Space Gray 5301AHG",
+                "modelName": "MateBook D 16 i3/8/512 Space Gray 53013WXD",
                 "rating": {
-                    "star": 4.861386138613861,
-                    "count": 101,
-                    "percent": 91
+                    "star": 5,
+                    "count": 56,
+                    "percent": 101
                 },
                 "supplier": null,
                 "vendorCatalog": null,
@@ -1074,9 +980,9 @@
                 "preorder": null,
                 "isMprimeSubscription": false,
                 "isPreorder": false,
-                "image": "Pdb/small_pic/480/400260389b.jpg",
-                "brandId": "1077",
-                "brandName": "HONOR",
+                "image": "Pdb/small_pic/480/30070347b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
                 "status": {
                     "showCase": false,
                     "availableOnlyInRetailStore": false,
@@ -1089,15 +995,14 @@
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/400260389.jpg",
-                    "Pdb/400260389b.jpg",
-                    "Pdb/400260389b1.jpg",
-                    "Pdb/400260389b2.jpg",
-                    "Pdb/400260389b3.jpg",
-                    "Pdb/400260389b4.jpg",
-                    "Pdb/400260389b5.jpg",
-                    "Pdb/400260389b6.jpg",
-                    "Pdb/400260389s.jpg"
+                    "Pdb/30070347.jpg",
+                    "Pdb/30070347b.jpg",
+                    "Pdb/30070347b1.jpg",
+                    "Pdb/30070347b2.jpg",
+                    "Pdb/30070347b3.jpg",
+                    "Pdb/30070347b4.jpg",
+                    "Pdb/30070347b5.jpg",
+                    "Pdb/30070347s.jpg"
                 ],
                 "propertiesPortion": [
                     {
@@ -1121,7 +1026,108 @@
                     {
                         "id": 30852930,
                         "name": "Процессор",
-                        "value": "Intel Core i5 12450H 2 ГГц",
+                        "value": "Intel Core i3 1215U 1.2 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Видеокарта",
+                        "value": "Intel UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400132672",
+                "name": "Ноутбук игровой Thunderobot 911 Plus G3 Pro JT009R00BRU",
+                "nameTranslit": "noutbuk-igrovoi-thunderobot-911-plus-g3-pro-jt009r00bru",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "400132672",
+                "materialSource": "ERP",
+                "modelName": "911 Plus G3 Pro JT009R00BRU",
+                "rating": {
+                    "star": 4.771929824561403,
+                    "count": 228,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "saleLegal": true,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "isPreorder": false,
+                "image": "Pdb/small_pic/480/400132672b.jpg",
+                "brandId": "10280",
+                "brandName": "Thunderobot",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "3607",
+                    "name": "Игровые ноутбуки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400132672.jpg",
+                    "Pdb/400132672b.jpg",
+                    "Pdb/400132672b1.jpg",
+                    "Pdb/400132672b2.jpg",
+                    "Pdb/400132672b21.jpg",
+                    "Pdb/400132672b22.jpg",
+                    "Pdb/400132672b23.jpg",
+                    "Pdb/400132672b24.jpg",
+                    "Pdb/400132672b25.jpg",
+                    "Pdb/400132672b3.jpg",
+                    "Pdb/400132672b4.jpg",
+                    "Pdb/400132672b5.jpg",
+                    "Pdb/400132672b6.jpg",
+                    "Pdb/400132672b7.jpg",
+                    "Pdb/400132672s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 5552,
+                        "name": "Гарантия",
+                        "value": "1 год",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "17.3\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852930,
+                        "name": "Процессор",
+                        "value": "Intel Core i5 13500H 2.6 ГГц",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 3,
@@ -1139,7 +1145,7 @@
                     {
                         "id": 620,
                         "name": "Видеокарта",
-                        "value": "Intel HD Graphics",
+                        "value": "GeForce RTX 4060 6GB",
                         "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
                         "valueDescription": null,
                         "priority": 6,
@@ -1193,6 +1199,101 @@
                     "Pdb/400260388b5.jpg",
                     "Pdb/400260388b6.jpg",
                     "Pdb/400260388s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 5552,
+                        "name": "Гарантия",
+                        "value": "1 год",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "16\"/1920x1200 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852930,
+                        "name": "Процессор",
+                        "value": "Intel Core i5 12450H 2 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Видеокарта",
+                        "value": "Intel HD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400260389",
+                "name": "Ноутбук HONOR MagicBook X16 2024 i5 12450H/16/512 Space Gray 5301AHGW",
+                "nameTranslit": "noutbuk-honor-magicbook-x16-2024-i5-12450h-16-512-space-gray-5301ahgw",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "400260389",
+                "materialSource": "ERP",
+                "modelName": "MagicBook X16 i5 12450H/16/512 Space Gray 5301AHG",
+                "rating": {
+                    "star": 4.861386138613861,
+                    "count": 101,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "saleLegal": true,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "isPreorder": false,
+                "image": "Pdb/small_pic/480/400260389b.jpg",
+                "brandId": "1077",
+                "brandName": "HONOR",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "987",
+                    "name": "Ноутбуки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400260389.jpg",
+                    "Pdb/400260389b.jpg",
+                    "Pdb/400260389b1.jpg",
+                    "Pdb/400260389b2.jpg",
+                    "Pdb/400260389b3.jpg",
+                    "Pdb/400260389b4.jpg",
+                    "Pdb/400260389b5.jpg",
+                    "Pdb/400260389b6.jpg",
+                    "Pdb/400260389s.jpg"
                 ],
                 "propertiesPortion": [
                     {
@@ -1338,201 +1439,6 @@
                 ]
             },
             {
-                "productId": "400132672",
-                "name": "Ноутбук игровой Thunderobot 911 Plus G3 Pro JT009R00BRU",
-                "nameTranslit": "noutbuk-igrovoi-thunderobot-911-plus-g3-pro-jt009r00bru",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "400132672",
-                "materialSource": "ERP",
-                "modelName": "911 Plus G3 Pro JT009R00BRU",
-                "rating": {
-                    "star": 4.771929824561403,
-                    "count": 228,
-                    "percent": 91
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "saleLegal": true,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "isPreorder": false,
-                "image": "Pdb/small_pic/480/400132672b.jpg",
-                "brandId": "10280",
-                "brandName": "Thunderobot",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "3607",
-                    "name": "Игровые ноутбуки"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/400132672.jpg",
-                    "Pdb/400132672b.jpg",
-                    "Pdb/400132672b1.jpg",
-                    "Pdb/400132672b2.jpg",
-                    "Pdb/400132672b21.jpg",
-                    "Pdb/400132672b22.jpg",
-                    "Pdb/400132672b23.jpg",
-                    "Pdb/400132672b24.jpg",
-                    "Pdb/400132672b25.jpg",
-                    "Pdb/400132672b3.jpg",
-                    "Pdb/400132672b4.jpg",
-                    "Pdb/400132672b5.jpg",
-                    "Pdb/400132672b6.jpg",
-                    "Pdb/400132672b7.jpg",
-                    "Pdb/400132672s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 5552,
-                        "name": "Гарантия",
-                        "value": "1 год",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 621,
-                        "name": "Диагональ/разрешение",
-                        "value": "17.3\"/1920x1080 пикс.",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852930,
-                        "name": "Процессор",
-                        "value": "Intel Core i5 13500H 2.6 ГГц",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852805,
-                        "name": "Оперативная память (RAM)",
-                        "value": "16",
-                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                        "valueDescription": null,
-                        "priority": 5,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 620,
-                        "name": "Видеокарта",
-                        "value": "GeForce RTX 4060 6GB",
-                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": null
-                    }
-                ]
-            },
-            {
-                "productId": "30069873",
-                "name": "Ноутбук ASUS E410KA5100-0C8KXBJX10",
-                "nameTranslit": "noutbuk-asus-e410ka5100-0c8kxbjx10",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "30069873",
-                "materialSource": "ERP",
-                "modelName": "E410KA5100-0C8KXBJX10",
-                "rating": {
-                    "star": 4.9,
-                    "count": 40,
-                    "percent": 91
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "saleLegal": true,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "isPreorder": false,
-                "image": "Pdb/small_pic/480/30069873b.jpg",
-                "brandId": "455",
-                "brandName": "ASUS",
-                "status": {
-                    "showCase": true,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "987",
-                    "name": "Ноутбуки"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/30069873.jpg",
-                    "Pdb/30069873b.jpg",
-                    "Pdb/30069873b1.jpg",
-                    "Pdb/30069873b2.jpg",
-                    "Pdb/30069873b3.jpg",
-                    "Pdb/30069873b4.jpg",
-                    "Pdb/30069873b5.jpg",
-                    "Pdb/30069873s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 5552,
-                        "name": "Гарантия",
-                        "value": "1 год",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 621,
-                        "name": "Диагональ/разрешение",
-                        "value": "14\"/1920x1080 пикс.",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852930,
-                        "name": "Процессор",
-                        "value": "Intel N5100",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852805,
-                        "name": "Оперативная память (RAM)",
-                        "value": "8",
-                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                        "valueDescription": null,
-                        "priority": 5,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 620,
-                        "name": "Видеокарта",
-                        "value": "интегрированная",
-                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": null
-                    }
-                ]
-            },
-            {
                 "productId": "30069923",
                 "name": "Ноутбук HUAWEI MateBook D 16 i5/8/512 Space Gray (53013WXE)",
                 "nameTranslit": "noutbuk-huawei-matebook-d-16-i5-8-512-space-gray-53013wxe",
@@ -1622,6 +1528,110 @@
                         "id": 620,
                         "name": "Видеокарта",
                         "value": "Intel UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30069897",
+                "name": "Ноутбук игровой ASUS TUF Gaming A15 FX506HE-HN411",
+                "nameTranslit": "noutbuk-igrovoi-asus-tuf-gaming-a15-fx506he-hn411",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30069897",
+                "materialSource": "ERP",
+                "modelName": "TUF Gaming A15 FX506HE-HN411",
+                "rating": {
+                    "star": 4.906666666666666,
+                    "count": 75,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "saleLegal": true,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "isPreorder": false,
+                "image": "Pdb/small_pic/480/30069897b.jpg",
+                "brandId": "455",
+                "brandName": "ASUS",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "3607",
+                    "name": "Игровые ноутбуки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30069897.jpg",
+                    "Pdb/30069897b.jpg",
+                    "Pdb/30069897b1.jpg",
+                    "Pdb/30069897b10.jpg",
+                    "Pdb/30069897b11.jpg",
+                    "Pdb/30069897b12.jpg",
+                    "Pdb/30069897b13.jpg",
+                    "Pdb/30069897b14.jpg",
+                    "Pdb/30069897b15.jpg",
+                    "Pdb/30069897b2.jpg",
+                    "Pdb/30069897b3.jpg",
+                    "Pdb/30069897b4.jpg",
+                    "Pdb/30069897b5.jpg",
+                    "Pdb/30069897b6.jpg",
+                    "Pdb/30069897b7.jpg",
+                    "Pdb/30069897b8.jpg",
+                    "Pdb/30069897b9.jpg",
+                    "Pdb/30069897s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 5552,
+                        "name": "Гарантия",
+                        "value": "1 год",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "15.6\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852930,
+                        "name": "Процессор",
+                        "value": "Intel Core i7 11800H 2.3 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Видеокарта",
+                        "value": "GeForce RTX 3050 Ti 4GB",
                         "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
                         "valueDescription": null,
                         "priority": 6,
@@ -1819,110 +1829,6 @@
                 ]
             },
             {
-                "productId": "30069897",
-                "name": "Ноутбук игровой ASUS TUF Gaming A15 FX506HE-HN411",
-                "nameTranslit": "noutbuk-igrovoi-asus-tuf-gaming-a15-fx506he-hn411",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "30069897",
-                "materialSource": "ERP",
-                "modelName": "TUF Gaming A15 FX506HE-HN411",
-                "rating": {
-                    "star": 4.906666666666666,
-                    "count": 75,
-                    "percent": 91
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "saleLegal": true,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "isPreorder": false,
-                "image": "Pdb/small_pic/480/30069897b.jpg",
-                "brandId": "455",
-                "brandName": "ASUS",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "3607",
-                    "name": "Игровые ноутбуки"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/30069897.jpg",
-                    "Pdb/30069897b.jpg",
-                    "Pdb/30069897b1.jpg",
-                    "Pdb/30069897b10.jpg",
-                    "Pdb/30069897b11.jpg",
-                    "Pdb/30069897b12.jpg",
-                    "Pdb/30069897b13.jpg",
-                    "Pdb/30069897b14.jpg",
-                    "Pdb/30069897b15.jpg",
-                    "Pdb/30069897b2.jpg",
-                    "Pdb/30069897b3.jpg",
-                    "Pdb/30069897b4.jpg",
-                    "Pdb/30069897b5.jpg",
-                    "Pdb/30069897b6.jpg",
-                    "Pdb/30069897b7.jpg",
-                    "Pdb/30069897b8.jpg",
-                    "Pdb/30069897b9.jpg",
-                    "Pdb/30069897s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 5552,
-                        "name": "Гарантия",
-                        "value": "1 год",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 621,
-                        "name": "Диагональ/разрешение",
-                        "value": "15.6\"/1920x1080 пикс.",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852930,
-                        "name": "Процессор",
-                        "value": "Intel Core i7 11800H 2.3 ГГц",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852805,
-                        "name": "Оперативная память (RAM)",
-                        "value": "16",
-                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                        "valueDescription": null,
-                        "priority": 5,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 620,
-                        "name": "Видеокарта",
-                        "value": "GeForce RTX 3050 Ti 4GB",
-                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": null
-                    }
-                ]
-            },
-            {
                 "productId": "30066685",
                 "name": "Ноутбук HUAWEI MateBook 14 i5-1240P/16 ГБ/512 ГБ/Space Gray (53013PET)",
                 "nameTranslit": "noutbuk-huawei-matebook-14-i5-1240p-16-gb-512-gb-space-gray-53013pet",
@@ -2018,17 +1924,17 @@
                 ]
             },
             {
-                "productId": "400243953",
-                "name": "Ноутбук HUAWEI MateBook D16 2024 i5-12450H/8 ГБ/512 ГБ/Space Gray (53013WXE)",
-                "nameTranslit": "noutbuk-huawei-matebook-d16-2024-i5-12450h-8gb-512gb-space-gray-53013wxe",
+                "productId": "30070141",
+                "name": "Ноутбук игровой MSI Katana 17 i5-12450H/8 ГБ/512 ГБ/RTX 3050/noOS/Черный (B12UCR-1024XRU)",
+                "nameTranslit": "noutbuk-igrovoi-msi-katana-17-i5-12450h-8-gb-512-gb-rtx-3050-noos-chernyi-b12ucr-1024xru",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "400243953",
+                "materialCisNumber": "30070141",
                 "materialSource": "ERP",
-                "modelName": "MateBook D16 (53013WXE) серый космос",
+                "modelName": "Katana 17 B12UCR-1024XRU",
                 "rating": {
-                    "star": 4.9393939393939394,
-                    "count": 99,
+                    "star": 4.881578947368421,
+                    "count": 76,
                     "percent": 91
                 },
                 "supplier": null,
@@ -2039,9 +1945,9 @@
                 "preorder": null,
                 "isMprimeSubscription": false,
                 "isPreorder": false,
-                "image": "Pdb/small_pic/480/400243953b.jpg",
-                "brandId": "1801",
-                "brandName": "HUAWEI",
+                "image": "Pdb/small_pic/480/30070141b.jpg",
+                "brandId": "1001",
+                "brandName": "MSI",
                 "status": {
                     "showCase": false,
                     "availableOnlyInRetailStore": false,
@@ -2049,25 +1955,19 @@
                     "isCannotBeExchanged": false
                 },
                 "category": {
-                    "id": "987",
-                    "name": "Ноутбуки"
+                    "id": "3607",
+                    "name": "Игровые ноутбуки"
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/400243953.jpg",
-                    "Pdb/400243953b.jpg",
-                    "Pdb/400243953b1.jpg",
-                    "Pdb/400243953b10.jpg",
-                    "Pdb/400243953b11.jpg",
-                    "Pdb/400243953b2.jpg",
-                    "Pdb/400243953b3.jpg",
-                    "Pdb/400243953b4.jpg",
-                    "Pdb/400243953b5.jpg",
-                    "Pdb/400243953b6.jpg",
-                    "Pdb/400243953b7.jpg",
-                    "Pdb/400243953b8.jpg",
-                    "Pdb/400243953b9.jpg",
-                    "Pdb/400243953s.jpg"
+                    "Pdb/30070141.jpg",
+                    "Pdb/30070141b.jpg",
+                    "Pdb/30070141b1.jpg",
+                    "Pdb/30070141b2.jpg",
+                    "Pdb/30070141b3.jpg",
+                    "Pdb/30070141b4.jpg",
+                    "Pdb/30070141b5.jpg",
+                    "Pdb/30070141s.jpg"
                 ],
                 "propertiesPortion": [
                     {
@@ -2082,7 +1982,7 @@
                     {
                         "id": 621,
                         "name": "Диагональ/разрешение",
-                        "value": "16\"/1920x1200 пикс.",
+                        "value": "17.3\"/1920x1080 пикс.",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 2,
@@ -2109,7 +2009,103 @@
                     {
                         "id": 620,
                         "name": "Видеокарта",
-                        "value": "Intel UHD Graphics",
+                        "value": "GeForce RTX 3050",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400171260",
+                "name": "Ноутбук Infinix Inbook Y2 Plus XL29 i5/16GB/512GB Grey",
+                "nameTranslit": "noutbuk-infinix-inbook-y2-plus-xl29-i5-16gb-512gb-grey",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "400171260",
+                "materialSource": "ERP",
+                "modelName": "Inbook Y2 Plus XL29 15 i5/16GB/512GB Grey",
+                "rating": {
+                    "star": 4.93,
+                    "count": 100,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "saleLegal": true,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "isPreorder": false,
+                "image": "Pdb/small_pic/480/400171260b.jpg",
+                "brandId": "10059",
+                "brandName": "Infinix",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "987",
+                    "name": "Ноутбуки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400171260.jpg",
+                    "Pdb/400171260b.jpg",
+                    "Pdb/400171260b1.jpg",
+                    "Pdb/400171260b2.jpg",
+                    "Pdb/400171260b3.jpg",
+                    "Pdb/400171260b4.jpg",
+                    "Pdb/400171260b5.jpg",
+                    "Pdb/400171260b6.jpg",
+                    "Pdb/400171260b7.jpg",
+                    "Pdb/400171260s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 5552,
+                        "name": "Гарантия",
+                        "value": "1 год",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "15.6\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852930,
+                        "name": "Процессор",
+                        "value": "Intel Core i5 1155G7 2.5 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Видеокарта",
+                        "value": "Intel Iris Xe Graphics",
                         "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
                         "valueDescription": null,
                         "priority": 6,

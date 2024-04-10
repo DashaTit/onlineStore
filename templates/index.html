@@ -26,9 +26,26 @@
                         <p class="card-title text-start mt-1 text-secondary"><small>Оперативная память (RAM): {{ el['propertiesPortion'][3]['value'] }} ГБ</small></p>
                         <p class="card-title text-start mt-1 text-secondary"><small>{{ el['propertiesPortion'][4]['name'] }}: {{ el['propertiesPortion'][4]['value'] }}</small></p>
                         
-                        <div class="text-start mt-4">
-                            <button type="button" class="card-btn text-start btn btn-primary">В корзину</button>
-                        </div>
+                        {% if current_user.is_authenticated %}
+                            <!-- <a class="navbar-brand" href="/logout">{{ current_user.name }}</a> -->
+                            <div class="text-start mt-4">
+                                <form action="" method="post">
+                                    <input type='hidden' name="product_id" value="{{el['productId']}}"/>
+                                    <input type='hidden' name="name" value="{{current_user.email}}"/>
+                                    <button  type="submit">В корзину</button>
+                                </form>
+                                
+                            </div>
+                        {% else %}
+                                <div class="text-start mt-4">
+                                    <form action="" method="post">
+                                        <input type='hidden' name="product_id" value="{{el['productId']}}"/>
+                                        <button disabled type="submit">В корзину</button>
+                                    </form>
+                                    
+                                </div>
+                        {% endif %}
+                        
 
                     </div>
                     </div>

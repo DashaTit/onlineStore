@@ -1,10 +1,12 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, render_template, redirect, url_for, flash, request
 from data import db_session
 from data.users import User
+from data.shop import Shop
 from forms.users import LoginForm, RegisterForm
 from flask_login import LoginManager, login_user
-from flask_login import LoginManager, login_user, login_required, logout_user, current_user
+from flask_login import LoginManager, login_user, login_required, logout_user
+
+
 import json
 
 from data_collection import Data_collection
@@ -16,26 +18,52 @@ Data_collection() #data
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///shop.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
 login_manager = LoginManager()
 login_manager.init_app(app)
-
-db = SQLAlchemy(app)
 
 
 
 #routes
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
     with open('result.json', encoding='utf-8') as f:
         templates = json.load(f)
+    product = request.form.get("product_id", "")
+    current_email = request.form.get("name", "")
+    val = request.form.get("value", "")
+    if product:
+        db_sess = db_session.create_session()
+        user = db_sess.query(User).first()
+        new_product = Shop(content=product, email=current_email, user=user)
+        db_sess.add(new_product)
+        db_sess.commit()
+    if val:
+        return redirect(url_for('basket', current_email=val))
     return render_template('index.html', templates=templates)
 
-@app.route('/basket')
+
+
+
+
+@app.route('/basket', methods=['GET', 'POST'])
 def basket():
-    return render_template('basket.html')
+    with open('result.json', encoding='utf-8') as f:
+        templates = json.load(f)
+    c = ''
+    current_email = request.args.get('current_email')
+
+    db_sess = db_session.create_session()
+    basket_list = db_sess.query(Shop).all()
+    print(basket_list)
+    for basket in basket_list:
+        if basket.email == current_email:
+            c += basket.content + ' '
+    print(c)
+
+    return render_template('basket.html', cont=c.split(), templates=templates)
+
+
+
 
 
 @login_manager.user_loader
@@ -75,7 +103,6 @@ def register():
         user = User(
             name=form.name.data,
             email=form.email.data,
-            # about=form.about.data
         )
         user.set_password(form.password.data)
         db_sess.add(user)
@@ -92,6 +119,4 @@ def logout():
 
 if __name__ == "__main__":
     db_session.global_init("bd/blogs.db")
-    with app.app_context():
-        db.create_all()
     app.run(debug=True)

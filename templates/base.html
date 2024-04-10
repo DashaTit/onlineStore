@@ -17,9 +17,13 @@
         </a>
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
             <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/">Главная</a>
-            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/basket">Корзина</a>
+
+            <form action="" method="post"  class="mr-2">
+                <input type='hidden' name="value" value="{{current_user.email}}"/>
+                <button style="border:none; background-color: transparent;" type="submit" ><img  src="https://cdn-icons-png.flaticon.com/512/3081/3081822.png"  style="width: 30px"></button>
+            </form>
             {% if current_user.is_authenticated %}
-                    <a class="navbar-brand" href="/logout">{{ current_user.name }}</a>
+                    <a style="margin-left:25px" class="navbar-brand ml-3 me-3 py-2 link-body-emphasis text-decoration-none" href="/logout">{{ current_user.name }}</a>
             {% else %}
                 <p>
                     <a class="btn btn-primary " href="/register">Зарегистрироваться</a>
