@@ -50,20 +50,27 @@ def basket():
     with open('result.json', encoding='utf-8') as f:
         templates = json.load(f)
     c = ''
+    summ = 0
     current_email = request.args.get('current_email')
-
     db_sess = db_session.create_session()
     basket_list = db_sess.query(Shop).all()
-    print(basket_list)
     for basket in basket_list:
         if basket.email == current_email:
             c += basket.content + ' '
-    print(c)
 
-    return render_template('basket.html', cont=c.split(), templates=templates)
+    for i in c.split():
+        for el in templates:
+            if el['productId'] == i:
+                summ += int(el['item_basePrice'])
+
+    
+    return render_template('basket.html', cont=c.split(), templates=templates, summ=summ)
 
 
-
+@app.route('/pay')
+def pay():
+    
+    return render_template('pay.html')
 
 
 @login_manager.user_loader

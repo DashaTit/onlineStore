@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>PAY</title>
+{% endblock %}
+
+{% block body %}
+<!-- <img src="https://i.pinimg.com/564x/bb/cf/58/bbcf58b0ceab105e91cc5445eac79220.jpg" alt=""> -->
+<main>
+    <div class="row g-5">
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Адрес для выставления счета</h4>
+        <form  class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="firstName" required>
+              <div class="invalid-feedback">
+                Действительное имя обязательно.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Фамилия</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Действительная фамилия обязательна.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Почта</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Почта" required="">
+              <div class="invalid-feedback">
+                Пожалуйста, введите действующий адрес электронной почты для получения информации о доставке.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Адрес</label>
+              <input type="text" class="form-control" id="address" placeholder="ул. Фокина" required="">
+              <div class="invalid-feedback">
+                Пожалуйста, введите свой адрес доставки.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Адрес 2 <span class="text-muted">(Необязательно)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="квартира или дом">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Страна</label>
+              <select class="form-select" id="country" required="">
+                <option value="">Выберите...</option>
+                <option>Россия</option>
+              </select>
+              <div class="invalid-feedback">
+                Пожалуйста, выберите действующую страну.
+              </div>
+            </div>
+
+            
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Индекс</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required="">
+              <div class="invalid-feedback">
+                Почтовый индекс обязателен.
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">Оплата</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="debit">Дебетовая карта</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Имя на карте</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+              <small class="text-muted">Полное имя, как отображено на карточке</small>
+              <div class="invalid-feedback">
+                Имя на карте обязательно.
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Номер карты</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+              <div class="invalid-feedback">
+                Номер карты обязателен.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Срок действия</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+              <div class="invalid-feedback">
+                Дата истечения карты обязательна.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+              <div class="invalid-feedback">
+                Защитный код обязателен.
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <a href="/" class="w-100 btn btn-primary btn-lg">заказать</a>
+        </form>
+      </div>
+    </div>
+  </main>
+
+{% endblock %}

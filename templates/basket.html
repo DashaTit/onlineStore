@@ -32,6 +32,10 @@
         {% endif %}
     {% endfor  %}
     {% endfor %}
+    <div style="display: flex; justify-content: space-around;">
+        <h4>итоговая сумма: {{summ}}</h4>
+        <a class="btn btn-success" href="/pay">Оплатить</a>
+    </div>
 {% else %}
         зарегистрируйтесь, чтобы добавить товары в корзину
 {% endif %}
