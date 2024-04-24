@@ -99,7 +99,7 @@ class Data_requests():
         self.params = {
             'categoryId': '118',
             'offset': str(page),
-            'limit': '10',
+            'limit': '12',
             'filterParams': 'WyJ0b2xrby12LW5hbGljaGlpIiwiLTEyIiwiZGEiXQ==',
             'doTranslit': 'true',
         }
